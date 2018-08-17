@@ -1,10 +1,13 @@
 import random
 
+# the game in terminal 
 
 def get_guess():
+  secret_word= random.choice(["test","cat"])
   dashes = "-" * len(secret_word)
   guesses_left = 6
   previous_guesses = "Guessed:"
+  
   while guesses_left > -1 and not dashes == secret_word:
     print(dashes)
     print (str(previous_guesses))
@@ -97,5 +100,7 @@ def update_dashes(secret, cur_dash, rec_guess):
       result = result + cur_dash[i]
 
   return result
+
+  
 
 get_guess()
