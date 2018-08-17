@@ -13,7 +13,6 @@ def get_guess():
     print (str(previous_guesses))
     hangman_graphic(guesses_left)
     guess = input("Guess:")
-    print ("________      ")
     print ("********************************************")
 
     if len(guess) == 1 :
@@ -39,54 +38,68 @@ def get_guess():
 
 def hangman_graphic(guesses):
   if guesses == 6:
-    print ("________      ")
-    print ("|      |      ")
-    print ("|             ")
-    print ("|             ")
-    print ("|             ")
-    print ("|_________    ")
+    print (" ________      ")
+    print (" |      |      ")
+    print (" |             ")
+    print (" |             ")
+    print (" |             ")
+    print (" |_________    ")
+    print ("               ")
+
   elif guesses == 5:
-    print ("________      ")
-    print ("|      |      ")
-    print ("|      0      ")
-    print ("|             ")
-    print ("|             ")
-    print ("|_________    ")
+    print (" ________      ")
+    print (" |      |      ")
+    print (" |      0      ")
+    print (" |             ")
+    print (" |             ")
+    print (" |_________    ")
+    print ("               ")
+
   elif guesses == 4:
-    print ("________      ")
-    print ("|      |      ")
-    print ("|      0      ")
-    print ("|     /       ")
-    print ("|             ")
-    print ("|_________    ")
+    print (" ________      ")
+    print (" |      |      ")
+    print (" |      0      ")
+    print (" |     /       ")
+    print (" |             ")
+    print (" |_________    ")
+    print ("               ")
+
   elif guesses == 3:
-    print ("________      ")
-    print ("|      |      ")
-    print ("|      0      ")
-    print ("|     /|      ")
-    print ("|             ")
-    print ("|_________    ")
+    print (" ________      ")
+    print (" |      |      ")
+    print (" |      0      ")
+    print (" |     /|      ")
+    print (" |             ")
+    print (" |_________    ")
+    print ("               ")
+
   elif guesses == 2:
-    print ("________      ")
-    print ("|      |      ")
-    print ("|      0      ")
-    print ("|     /|\     ")
-    print ("|             ")
-    print ("|_________    ")
+    print (" ________      ")
+    print (" |      |      ")
+    print (" |      0      ")
+    print (" |     /|\     ")
+    print (" |             ")
+    print (" |_________    ")
+    print ("               ")
+
   elif guesses == 1:
-    print ("________      ")
-    print ("|      |      ")
-    print ("|      0      ")
-    print ("|     /|\     ")
-    print ("|     /       ")
-    print ("|_________    ")
+    print (" ________      ")
+    print (" |      |      ")
+    print (" |      0      ")
+    print (" |     /|\     ")
+    print (" |     /       ")
+    print (" |_________    ")
+    print ("               ")
+
   else:
-    print ("________      ")
-    print ("|      |      ")
-    print ("|      0      ")
-    print ("|     /|\     ")
-    print ("|     / \     ")
-    print ("|_________    ")
+    print (" ________      ")
+    print (" |      |      ")
+    print (" |      0      ")
+    print (" |     /|\     ")
+    print (" |     / \     ")
+    print (" |_________    ")
+    print ("               ")
+
 
 
 def update_dashes(secret, cur_dash, rec_guess):

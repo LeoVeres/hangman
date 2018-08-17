@@ -19,6 +19,22 @@ Words = [
         'id': 3,
         'word':'exponential',
     }
+        {
+        'id': 4,
+        'word':'waffles',
+    },
+        {
+        'id': 5,
+        'word':'fig',
+    },
+        {
+        'id': 6,
+        'word':'vacation',
+    },
+        {
+        'id': 7,
+        'word':'xylophone',
+    }
 ]
 
 @app.route("/")
