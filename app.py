@@ -18,7 +18,7 @@ Words = [
     {
         'id': 3,
         'word':'exponential',
-    }
+    },
         {
         'id': 4,
         'word':'waffles',
