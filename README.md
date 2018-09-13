@@ -6,7 +6,7 @@ and 'npm start' then clone this repo and 'python app.py'.
 
 ## Screenshots
 
-<img width="1285" alt="screen shot login" src="./src/imgs/hangmandashboard.PNG">
+<img width="1285" alt="screen shot login" src="./assets/hangmandashboard.PNG">
 
 
 ## Tech Used
